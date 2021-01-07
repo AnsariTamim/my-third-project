@@ -1,0 +1,86 @@
+body{
+    padding-bottom: 20px;
+    color: #5a5a5a;
+}
+
+.navbar-wrapper{
+    position: absolute;
+    top: 0;
+    right: 0;   
+    left: 0;    
+    z-index: 20;
+}
+
+.navbar-wrapper > .container{
+    padding-right: 0px;
+    padding-left: 0px; 
+}
+
+.navbar-wrapper .navbar{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.navbar-wrapper > .navbar .container{
+    width: auto;
+}
+
+.carousel{
+    height: 500px;
+    margin-bottom: 50px;
+}
+
+.carousel .item{
+    height: 500px;
+    background-color: #777777 ; 
+}
+.carousel-inner > .item > img{
+    position: absolute;
+    height: 500PX;
+    min-width: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+.team .col-lg-4{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.team h2 {
+    color: rgb(85, 3, 3 );
+    opacity: 0.8;
+}
+
+.team p{
+    margin-left: 10px;
+    margin-right: 10px;
+}  
+
+.divider{
+    margin: 40px 0px;
+}
+
+.baby{
+    padding-left: 50px;
+    text-align: center;
+    padding-top: 150px;
+}
+.content{
+    margin-bottom: 20px;
+}
+
+footer{
+    margin: 0px 120px;
+}
+.text-muted{
+ color: rgb(248, 142, 142);
+}
+
+.content-heading{
+    color: rgb(6, 247, 247);
+}
+
+.lead{
+    color: rgb(238, 203, 8);
+}
